@@ -1,0 +1,89 @@
+
+@media (max-width: 767px) {
+	.header ul li:first-child a {
+		padding-left: 15px;
+	}
+	ul.nav.navbar-nav.men a:hover {
+    	border-bottom: none;
+	}
+	.about-us {
+		height: 620px;
+	}
+	.about-lorem {
+		height: 850px;
+	}
+	.client {
+		height: 650px;
+	}
+	.has-been {
+		padding-left: 0;
+	}
+	.staciya {
+		margin-left: 0;
+		background: transparent;
+		color: #d8c0c0;
+		font-weight: bold;
+	}
+	.sub1 ,
+	.sub2 {
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	p.customer {
+		float: none;
+	}
+	.sub-block {
+		border: none;
+	}
+	.def1,
+	.def2,
+	.def3 {
+		padding: 10px 97px;
+	}
+	.sub {
+		padding-left: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.header ul li:first-child a {
+		padding-left: 0;
+	}
+	.navbar-collapse {
+		padding-left: 0;
+	}
+	.def1,
+	.def2,
+	.def3 {
+		padding: 10px 97px;
+	}
+	.client {
+		height: 400px;
+	}
+	.def1,
+	.def2,
+	.def3 {
+		padding: 10px 57px;
+	}
+	.sub {
+		padding-left: 40px;
+	}
+	.sub1,
+	.sub2 {
+	    padding-top: 20px;
+	    padding-left: 150px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1198px) {
+	.def1,
+    .def2,
+    .def3 {
+    	padding: 10px 97px;
+    }
+}
+@media (min-width: 1199px) {
+	.def1,
+	.def2,
+	.def3 {
+		padding: 10px 130px;
+	}
+}
